@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.score.dbtracer.DbtracerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.501 s <<< FAILURE! - in com.score.dbtracer.DbtracerApplicationTests
+contextLoads(com.score.dbtracer.DbtracerApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'parseServiceImpl': Unsatisfied dependency expressed through field 'parser'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'net.sf.jsqlparser.parser.JSqlParser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'net.sf.jsqlparser.parser.JSqlParser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+

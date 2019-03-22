@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: dbtracer
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: mixkorea
+Implementation-Vendor-Id: com.score.dbtracer
+Build-Jdk: 1.8.0_191-1-ojdkbuild
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/dbtracer
+Created-By: Maven Integration for Eclipse
+
