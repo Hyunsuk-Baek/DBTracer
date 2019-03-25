@@ -31,5 +31,8 @@ import net.sf.jsqlparser.JSQLParserException;
  */
 
 public interface ParseService {
-    public String parse(String sql) throws JSQLParserException;
+    public String JSQLParse(String sql) throws JSQLParserException;
+
+
+    public String ANTLRParse(String filePath) throws Exception;
 }
